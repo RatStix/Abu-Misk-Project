@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #E6E6FA;
+}
+
+/*HEADER AND NAVIGATIONS LINKS*/
+.top-header {
+	background-color: white;
+  margin: auto;
+  width: 100%;
+  height:120px;
+  text-align: center;
+  align-content: center;
+  padding: clamp(1rem, 1vw, 1rem);
+}
+
+h1 {
+	color: black;
+	font-family: Garamond, serif;
+	font-size: 60px;
+	margin: 0;
+	text-align: ;
+}
+
+.nav-header {
+	display: flex;
+	align-items: center;
+	position: relative;
+	width: 100%;
+}
+
+.nav-header ul {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	padding: 0.1rem -10rem;
+	gap: 15px;
+	flex: 2;
+}
+
+.nav-header li {
+	margin: 0;
+}
+
+/*LINKS FOR HEADER*/
+.nav-header a {
+	text-decoration: none;
+	font-family: Courier New;
+	color: black;
+	padding: 0.5rem 1rem;
+}
+
+.nav-header a:link {
+	color: black;
+	display: inline-block;
+	transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.nav-header a:visited {
+  color: black;
+}
+
+.nav-header a:hover {
+  color: purple;
+  transform: translateY(-5px);
+}
+
+.nav-header a:active {
+  color: blue;
+}
+ 
+.nav-icon {
+	margin-left: -10px;
+	padding-right: 0px;
+	font-size: 1rem;
+}
+
+.image-container img {
+	width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text-div {
+	align-content: center;
+	padding-top:20px;
+	padding-left: 50px;
+	height: 300px;
+	width: 45%;
+	line-height: 1.5;
+}
+
+h2 {
+	font-family: Courier New;
+	text-align: center;
+}
+
+p {
+	font-family: Courier New;
+	text-align: justify;
+}
